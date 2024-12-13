@@ -1,10 +1,23 @@
 --- 
+layout: post
 title: "LSTM Neural Networks explained for beginners with Fibonacci serie and Tensorflow"
 date: 2024-12-12 00:00:00 -0300
 categories: Neural-Networks AI Recurrency-Neural-Networks Deep-Learning LSTM
 tag: [Artificial-Neural-Networks, Machine-Learning, Deep-Learning, AI]
 ---
 
+<script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+<script>
+    MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+    };
+</script>
 
 
 ![Imagem de capa](../assets/Imagem_capa.png)
@@ -22,35 +35,39 @@ A principal inovação do LSTM é a introdução de **células de memória** e *
     A célula de memória é responsável por armazenar informações ao longo do tempo. Ela pode reter valores por longos períodos, o que é útil para capturar dependências de longo prazo.
 
 - **Três portas principais:**  
-1. **Porta de esquecimento ($f_t$):** Decide quais informações antigas na célula de memória devem ser descartadas. É calculada por:
+  - **Porta de esquecimento ($f_t$):** Decide quais informações antigas na célula de memória devem ser descartadas. É calculada por:  
+
 $$
 f_t = \sigma(W_f \cdot [h_{t-1}, x_t] + b_f)
 $$
-  2. **Porta de entrada ($i_t$):** Determina quais novas informações serão armazenadas na célula de memória:
+
+  - **Porta de entrada ($i_t$):** Determina quais novas informações serão armazenadas na célula de memória:  
+
 $$
 i_t = \sigma(W_i \cdot [h_{t−1}, x_t] + b_i)
 $$
 
-Uma função de ativação (geralmente tangente hiperbólica) gera os valores candidatos para serem adicionados:
+Uma função de ativação (geralmente tangente hiperbólica) gera os valores candidatos para serem adicionados:  
 
 $$
 \tilde{C}_t = \tanh(W_C \cdot [h_{t−1} , x_t ]+ b_C )
 $$
 
-  3. **Porta de saída ($o_t$):** Decide quais informações da célula de memória serão usadas para calcular a saída:
+  - **Porta de saída ($o_t$):** Decide quais informações da célula de memória serão usadas para calcular a saída:  
 
 $$
 o_t​ =σ(W_o​ \cdot [h_{t−1} ,x_t ] + b_o)
 $$
 
-A saída final é modulada por uma tangente hiperbólica:
+A saída final é modulada por uma tangente hiperbólica:  
 
 $$
 h_t = o_t \cdot \tanh(C_t)
 $$
 
-- **Atualização da Célula de Memória ($C_t$):**
-A célula de memória é atualizada com base nas portas de entrada e esquecimento:
+  - **Atualização da Célula de Memória ($C_t$):**
+A célula de memória é atualizada com base nas portas de entrada e esquecimento:  
+
 $$
 C_t =f_t \cdot C_{t−1} + i_t \cdot \tilde C_t
 ​$$
