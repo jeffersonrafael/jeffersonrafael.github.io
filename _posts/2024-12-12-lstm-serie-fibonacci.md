@@ -6,6 +6,9 @@ categories: Neural-Networks AI Recurrency-Neural-Networks Deep-Learning LSTM
 tag: [Artificial-Neural-Networks, Machine-Learning, Deep-Learning, AI]
 ---
 
+<!--
+Este sript html é necessário para a página estática do jekyll conseguir renderizar o código LaTex
+-->
 <script type="text/javascript" id="MathJax-script" async
         src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
@@ -18,16 +21,18 @@ tag: [Artificial-Neural-Networks, Machine-Learning, Deep-Learning, AI]
         }
     };
 </script>
-
+<!--
+Este sript html é necessário para a página estática do jekyll conseguir renderizar o código LaTex
+-->
 
 ![Imagem de capa](../assets/Imagem_capa.png)
 
 
-As **redes LSTM** (__Long Short-Term Memory__) são um tipo especial de rede neural recorrente (RNN) projetado para lidar com problemas relacionados a séries temporais e dados sequenciais. Elas foram introduzidas em 1997 por Sepp Hochreiter e Jürgen Schmidhuber para resolver a limitação principal das RNNs tradicionais: a incapacidade de lembrar informações de longo prazo devido ao **problema do desvanecimento** ou **explosão de gradientes** durante o treinamento.
+As **redes LSTM** (_Long Short-Term Memory_) são um tipo especial de rede neural recorrente (_RNN_) projetado para lidar com problemas relacionados a séries temporais e dados sequenciais. Elas foram introduzidas em 1997 por Sepp Hochreiter e Jürgen Schmidhuber para resolver a limitação principal das RNNs tradicionais: a incapacidade de lembrar informações de longo prazo devido ao **problema do desvanecimento** ou **explosão de gradientes** durante o treinamento.
 
 ## Estrutura e funcionamento
 
-![Imagem de capa](../assets/LSTM3-chain.png)
+![Imagem da arquitetura da célula de memória](../assets/LSTM3-chain.png)
 
 A principal inovação do LSTM é a introdução de **células de memória** e **portas** que controlam o fluxo de informações dentro da rede. Essas portas ajudam o modelo a decidir quais informações devem ser mantidas, atualizadas ou esquecidas ao longo do tempo.
 
