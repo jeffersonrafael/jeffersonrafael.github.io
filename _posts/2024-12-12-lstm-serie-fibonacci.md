@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: "LSTM Neural Networks explained for beginners with Fibonacci serie and Tensorflow"
-date: 2024-12-12 00:00:00 -0300
+date: 2024-12-21 00:00:00 -0300
 categories: Neural-Networks AI Recurrency-Neural-Networks Deep-Learning LSTM
 tag: [Artificial-Neural-Networks, Machine-Learning, Deep-Learning, AI]
 ---
