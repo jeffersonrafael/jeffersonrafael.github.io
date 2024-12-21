@@ -3,6 +3,11 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
+plugins:
+  - jekyll-seo-tag
+  
+
+
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
@@ -16,7 +21,7 @@ timezone:
 
 title: Jefferson Rafael # the main title
 
-tagline: Student of Physics and Developer of machine learning models 🤖 # it will display as the subtitle
+tagline: Student of Physics and Developer of machine learning models. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -38,8 +43,12 @@ social:
   email: contatojefferson25@proton.me # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
+    #- https://twitter.com/username # change to your Twitter homepage
     - https://github.com/jeffersonrafael # change to your GitHub homepage
+    - https://www.instagram.com/jeffersonrafa_/ # change to your Instagram homepage
+    - https://t.me/jefferson_trabalhos # change to your Telegram homepage
+    # - https://www.youtube.com/@Gradiente_Descendente # change to your YouTube homepage
+    - https://www.linkedin.com/in/jefferson-rafael/ # change to your LinkedIn homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
