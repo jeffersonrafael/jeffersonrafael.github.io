@@ -19,37 +19,49 @@ title: "👋 Um Pouco Sobre Mim"
 </div>
 
 # 📊 **Experiências e impactos**
+---
 
-O que a **IA** pode fazer por **você** e **sua empresa**? O que a IA pode fazer pela **sociedade**? Pela **saúde**? Aumento de **produtividade**? Etc... Na minha trajetória, eu realizei **contribuições acadêmicas** e em contextos **competitivos**. Abaixo, apresento um resumo sobre a **minha experiência**.
+O que a **IA** pode fazer por **você** e **sua empresa**? O que a IA pode fazer pela **sociedade**? Pela **saúde**? Aumento de **produtividade**? Etc... Na minha trajetória, eu realizei **contribuições acadêmicas** e em **contextos competitivos**. Abaixo, apresento um resumo sobre a **minha experiência**.
 
 
 ## 🎓 **Contribuição em estudos científicos**
-
+---
 
 ## 🏆 **Liga competitiva de ciência de dados da UFRJ**
+---
 
 **Lidero a área de competição da liga competitiva de ciência de dados da UFRJ**, aplicando minhas soft e hard skills em **desafios complexos**. Eu aproveito essa oportunidade para demonstrar **alta performance** em problemas reais, utilizando **habilidades de dados** e **liderança**.
 
 ## [**Child Mind Institute - Problematic Internet Use**](https://www.kaggle.com/code/jeffersonrafael/case-de-estudo-lb0-470-com-tabnet)
-
+---
 
 
 ## [**The Learning Agency Lab - PII Data Detection**](https://www.kaggle.com/code/jeffersonrafael/0-964-pii-competi-o-analytica)
+---
+
 
 ## [**Binary Classification with a Bank Churn Dataset**](https://www.kaggle.com/competitions/playground-series-s4e1/submissions)
+---
+
 
 ## [**Optiver Realized Volatility Prediction**](https://www.kaggle.com/code/jeffersonrafael/jefferson-version-feature-engineering-lightgbm)
+---
+
 
 ## [**LLM - Detect AI Generated Text**](https://www.kaggle.com/competitions/llm-detect-ai-generated-text/submissions)
+---
+
 
 ## [**Home Credit - Credit Risk Model Stability**](https://www.kaggle.com/code/jeffersonrafael/jefferson-version-fork-of-home-credit-catboost)
-
+---
 
 # 👨‍💻 **Tecnologias**
+---
 
 Ao longo da minha jornada, acumulei **experiências e conquistas** utilizando diversas **ferramentas**.
 
 ## **Linguagens**
+---
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
@@ -62,6 +74,7 @@ Ao longo da minha jornada, acumulei **experiências e conquistas** utilizando di
 
 
 ## **Automation**
+---
 
 Selenium  
 Playwright  
@@ -69,6 +82,7 @@ API Rest
 
 
 ## **Data Analysis**
+---
 
 Pandas  
 Numpy  
@@ -78,6 +92,7 @@ Scipy
 
 
 ## **Visualization**
+---
 
 Matplotlib  
 Seaborn  
@@ -86,11 +101,13 @@ Power BI
 
 
 ## **Deployment**
+---
 
 Streamlit  
 
 
 ## **Machine Learning & Deep Learning**
+---
 
 Scikit-Learn  
 TensorFlow  
@@ -99,6 +116,7 @@ Skorch
 
 
 ## **Web Scraping**
+---
 
 Beautiful Soap  
 Requests  
