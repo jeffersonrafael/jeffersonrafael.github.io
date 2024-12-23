@@ -13,7 +13,7 @@ title: "👋 Um Pouco Sobre Mim"
 <img src="../assets/img_about.jpeg" alt="Descrição da Imagem" style="border-radius: 50%;  object-fit: cover; margin-right: 20px; width: 300px; height: 300px;">
 <div style="max-width: 600px;">
 <p>
-    Olá! Sou Jefferson Rafael, graduando em Física pela UFRJ, cientista de dados e líder da liga competitiva de ciência de dados da UFRJ. Minha paixão por entender o mundo e criar soluções inovadoras me levou à área de ciência de dados e machine learning, transformando dados em decisões estratégicas com impacto real. Meu <a href="https://github.com/jeffersonrafael" target="_blank" style="color: blue; text-decoration: underline;">CV</a> e meu <a href="https://linktr.ee/jefferson_rafael" target="_blank" style="color: blue; text-decoration: underline;">contato</a>.
+    Olá! Sou Jefferson Rafael, graduando em Física pela UFRJ, cientista de dados e líder da liga competitiva de ciência de dados da UFRJ. Minha paixão por entender o mundo e criar soluções inovadoras me levou à área de ciência de dados e machine learning, transformando dados em decisões estratégicas com impacto real. Meu <a href="https://github.com/jeffersonrafael" target="_blank" style="color: orange; text-decoration: underline;">CV</a> e meu <a href="https://linktr.ee/jefferson_rafael" target="_blank" style="color: orange; text-decoration: underline;">contato</a>.
 </p>
 </div>
 </div>
