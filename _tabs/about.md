@@ -167,11 +167,14 @@ Ao longo da minha trajetória, acumulei **experiências relevantes e conquistas 
   <div class="image-group">
     <img src="../assets/about/selenium.png" alt="selenium logo">
     <img src="../assets/about/playwright.png" alt="playwright logo">
+  </div>
+</div>
+<div class="container">
+  <div class="image-group">
     <img src="../assets/about/requests.jpeg" alt="requests logo">
     <img src="../assets/about/beautiful-soup.png" alt="beautiful-soup logo">
   </div>
 </div>
-
 
 ## **Versionamento**
 ---
