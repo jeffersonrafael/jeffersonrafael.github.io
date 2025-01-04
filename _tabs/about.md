@@ -130,6 +130,10 @@ Ao longo da minha trajetória, acumulei **experiências relevantes e conquistas 
     <img src="../assets/about/pandas.png" alt="pandas logo">
     <img src="../assets/about/numpy.png" alt="numpy logo">
     <img src="../assets/about/scipy.png" alt="scipy logo">
+  </div>
+</div>
+<div class="container">
+  <div class="image-group">
     <img src="../assets/about/statsmodels.svg" alt="statsmodels logo">
     <img src="../assets/about/polars.png" alt="polars logo">
     <img src="../assets/about/excel.png" alt="excel logo">
