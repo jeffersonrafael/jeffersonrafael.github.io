@@ -21,11 +21,11 @@ title: "👋 Um Pouco Sobre Mim"
 # 📊 **Experiências e impactos**
 ---
 
-A Inteligência Artificial (IA) impulsiona inovação em empresas e sociedade, otimizando processos, elevando a produtividade e promovendo avanços em pesquisas científicas. Sua aplicação estratégica viabiliza soluções sustentáveis e impactantes em diversos setores.  
+A **Inteligência Artificial (IA)** impulsiona inovação em empresas e sociedade, otimizando processos, elevando a produtividade e promovendo avanços em pesquisas científicas. Sua aplicação estratégica viabiliza soluções sustentáveis e impactantes em diversos setores.  
 
 **Minha Contribuição Profissional e Acadêmica**  
 
-Com experiência como pesquisador no Instituto Nacional de Tecnologia (INT) e coordenador na Analytica, aplico IA e ciência de dados para gerar impacto real. No INT, desenvolvi modelos de machine learning voltados para diagnósticos médicos e na Analytica, liderei projetos com tecnologias como TensorFlow, PyTorch, Scikit-Learn e IA Generativa, combinando habilidades técnicas e visão estratégica para entrega de resultados alinhados aos objetivos organizacionais.
+Com experiência como pesquisador no **Instituto Nacional de Tecnologia (INT)** e coordenador na **Analytica**, aplico IA e ciência de dados para gerar impacto real. No INT, desenvolvi modelos de machine learning voltados para diagnósticos médicos e na Analytica, liderei projetos com tecnologias como TensorFlow, PyTorch, Scikit-Learn e IA Generativa, combinando habilidades técnicas e visão estratégica para entrega de resultados alinhados aos objetivos organizacionais.
 
 
 ## 🎓 **Contribuição em estudos científicos**
@@ -49,7 +49,7 @@ Eu lidero a área de competição da liga competitiva de ciência de dados da UF
 ## [**Optiver Realized Volatility Prediction**](https://jeffersonrafael.github.io/posts/volatilidade-ia/)
 ---
 
-Nesta competição, eu construi modelos que preveem a volatilidade de curto prazo para centenas de ações em diferentes setores. Eu lidei com centenas de milhões de linhas de dados financeiros altamente granulares à sua disposição, com os quais eu projetei meu modelo de previsão de volatilidade em períodos de 10 minutos. Os modelos são avaliados em relação aos dados reais do mercado coletados no período de avaliação de três meses após o treinamento.
+Nesta competição, eu construi modelos que **preveem a volatilidade de curto prazo** para centenas de ações em diferentes setores. Eu lidei com **centenas de milhões** de linhas de dados financeiros altamente granulares à sua disposição, com os quais eu projetei meu **modelo de previsão de volatilidade em períodos de 10 minutos**. Os modelos são avaliados em relação aos dados reais do mercado coletados no período de avaliação de três meses após o treinamento.
 
 ---
 
@@ -181,4 +181,4 @@ Ao longo da minha trajetória, acumulei **experiências relevantes e conquistas 
 
 ---
 
-Agradeço pela sua atenção! Convido você a explorar outras publicações para conhecer mais sobre minha trajetória profissional e os projetos que desenvolvi. Sua visita é fundamental para fortalecer nossa conexão.
+Agradeço pela sua atenção! Convido você a [explorar outras publicações](https://jeffersonrafael.github.io/) para conhecer mais sobre minha **trajetória profissional** e os **projetos que desenvolvi**. Sua visita é fundamental para fortalecer nossa conexão.
