@@ -5,6 +5,7 @@ date: 2024-12-28 00:00:00 -0300
 categories: Neural-Networks AI Deep-Learning 
 tag: [Artificial-Neural-Networks, Machine-Learning, Deep-Learning, AI, Stock-Market]
 image: /assets/vol_optiver/optiver.jpeg
+comments: true
 ---
 
 <!--
@@ -58,9 +59,9 @@ Para mais informações sobre os dados entre [neste link](https://www.kaggle.com
 
 ### **Modelo**
 
-Random Search foi usado para otimizar os hiperparametros do algoritmo LightGBM. Dividindo o dataset de treinamento 3 kfolds, foi aplicado validação cruzada para mitigar overfitting do modelo na etapa de treinamento.
+Random Search foi usado para otimizar os hiperparametros do algoritmo LightGBM. Dividindo o dataset de treinamento em 3 kfolds, foi aplicada validação cruzada para mitigar overfitting do modelo na etapa de treinamento.
 
-Utilizando o voting, uma técnica de ensemble learning, foi construido um modelo robusto a partir de variações nos hiperparâmetros dos modelos. 
+Utilizando o voting, uma técnica de ensemble learning, foi construido um modelo robusto a partir de ajustes nas configurações dos hiperparâmetros dos modelos. 
 
 ```python
 
@@ -99,9 +100,9 @@ ensemble_voting = VotingRegressor(
 
 ```
 
-Curiosidade: Os pesos atribuidos aos modelos foram definidos arbitrariamente usando os lados de um [triangulo pitagórico](https://pt.wikipedia.org/wiki/Terno_pitag%C3%B3rico).
+Observação: Os pesos atribuídos aos modelos foram definidos arbitrariamente, utilizando os lados de um [triângulo pitagórico](https://pt.wikipedia.org/wiki/Terno_pitag%C3%B3rico) como referência.
 
-A figura abaixo, ilustra o modelo acima
+A figura abaixo, ilustra o modelo.
 
 ![imagem modelo](/assets/vol_optiver/modelo-fig.png)
 
@@ -138,7 +139,7 @@ $$
 
 ### Exemplo com preço de opção:
 
-A métrica **RMSPE (Root Mean Squared Percentage Error)** é útil para avaliar a precisão de modelos de regressão, especialmente em casos onde os valores reais têm diferentes magnitudes e é importante medir o erro relativo. Um exemplo prático é prever o preço de uma opção financeira.
+A métrica **RMSPE** é útil para avaliar a precisão de modelos de regressão, especialmente em casos onde os valores reais têm diferentes magnitudes e é importante medir o erro relativo. Um exemplo prático é prever o preço de uma opção financeira.
 
 ---
 
@@ -199,12 +200,13 @@ def rmspe(y_true, y_pred):
 
 ## **Resultado**
 
-Grafico da feature importances média dos modelos
+O modelo ensemble utilizando LightGBM apresentou os melhores resultados, alcançando um `RMSPE de 0.28978` nos dados da leaderboard privada.
+
+Grafico da feature importances média dos modelos:
 
 ![grafico feature importances](/assets/vol_optiver/feature_importances.png)
 
-
-O modelo ensemble usando LightGBM, foi o que apresentou os melhores resultados. Conquistando um **RMSPE** de **0.28978** nos dados da leaderboard privada. 
+A variável `stock_id` destacou-se como a mais importante. Outras variáveis, como `log_ret1_std` e `log_ret2_std_300`, também mostraram alta importância. Fatores relacionados a volumes de negociação e spreads, como `spread_mean_120`, `size_mean` e `risk_spread_mean`, também tiveram pesos notáveis.
 
 ## **Conclusão**
 
@@ -228,11 +230,10 @@ Algumas variáveis no gráfico apresentam menor importância relativa, como `spr
 
 
 O domínio de poucas variáveis-chave, como `stock_id`, pode indicar a necessidade de explorar mais interações ou criar variáveis derivadas para capturar informações não lineares ou dependências mais complexas.
-Focar na feature engineering relacionada às variáveis mais importantes pode ajudar a reduzir ainda mais o RMSPE.
+Focar na feature engineering relacionada às variáveis mais importantes pode ajudar a reduzir ainda mais o RMSPE. 
 
 
-Avaliar se o modelo está capturando bem a relação entre as variáveis mais importantes e a variável alvo.
-Testar abordagens diferentes, como agrupamento de ações (`stock_id`) por características similares, para simplificar a estrutura do modelo.
+Avaliar se o modelo está capturando bem a relação entre as variáveis mais importantes e a variável alvo. Testar abordagens diferentes, como agrupamento de ações (`stock_id`) por características similares, para simplificar a estrutura do modelo. Podem contribuir para reduzir o RMSPE.
 
 
 ## **Citação**
