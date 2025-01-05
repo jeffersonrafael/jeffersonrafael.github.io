@@ -240,6 +240,9 @@ Avaliar se o modelo está capturando bem a relação entre as variáveis mais im
 
 Autor: Andrew Meyer, BerniceOptiver, CameronOptiver, IXAGPOPU, Jiashen Liu, Matteo Pietrobon (Optiver), OptiverMerle, Sohier Dane, and Stefan Vallentine. (2021). Title: Optiver Realized Volatility Prediction. Retrieved December 29, 2024 from https://kaggle.com/competitions/optiver-realized-volatility-prediction.
 
+
+Notebook leaderboard private: https://www.kaggle.com/code/jeffersonrafael/jefferson-version-feature-engineering-lightgbm
+
 <!-- @misc{optiver-realized-volatility-prediction,
     author = {Andrew Meyer and BerniceOptiver and CameronOptiver and IXAGPOPU and Jiashen Liu and Matteo Pietrobon (Optiver) and OptiverMerle and Sohier Dane and Stefan Vallentine},
     title = {Optiver Realized Volatility Prediction},
